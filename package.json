@@ -1,0 +1,22 @@
+{
+  "name": "3.3-nasa-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-install": "npm install --prefix server",
+    "client-install": "npm install --prefix client",
+    "install": "npm run server-install && npm run client-install",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "deploy": "npm run build --prefix client && npm run start:deploy --prefix server",
+    "deploy:cluster": "npm run build --prefix client && npm run start:cluster --prefix server",
+    "watch": "npm run server & npm run client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

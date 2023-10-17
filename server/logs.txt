@@ -1,0 +1,39 @@
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+server is started on PORT 5000
+[0mGET / [32m200[0m 6.130 ms - 1002[0m
+[0mGET /static/js/main.de6b12fe.js [32m200[0m 15.320 ms - 473653[0m
+[0mGET /sound/click.mp3 [32m200[0m 6.622 ms - 2688[0m
+[0mGET /sound/typing.mp3 [32m200[0m 7.267 ms - 5760[0m
+[0mGET /sound/deploy.mp3 [32m200[0m 8.862 ms - 5376[0m
+[0mGET /sound/abort.mp3 [32m200[0m 8.361 ms - 11548[0m
+[0mGET /sound/success.mp3 [32m200[0m 11.557 ms - 98497[0m
+[0mGET /sound/warning.mp3 [32m200[0m 11.926 ms - 28800[0m
+[0mGET /img/glow.png [32m200[0m 3.286 ms - 455[0m
+[0mGET /favicon.png [32m200[0m 4.408 ms - 4500[0m
+[0mGET /launches [32m200[0m 12.723 ms - 201[0m
+[0mGET /planets [32m200[0m 12.170 ms - 9862[0m
+[0mGET /img/background-large.jpg [32m200[0m 6.100 ms - 778461[0m
+[0mGET /favicon.png [36m304[0m 0.949 ms - -[0m
+[0mGET /manifest.json [32m200[0m 1.184 ms - 306[0m
+[0mPOST /launches [32m201[0m 50.377 ms - 187[0m
+[0mGET /launches [32m200[0m 3.575 ms - 389[0m
+[0mPOST /launches [32m201[0m 1.507 ms - 187[0m
+[0mGET /launches [32m200[0m 3.040 ms - 577[0m
+[0mPOST /launches [32m201[0m 1.810 ms - 187[0m
+[0mGET /launches [32m200[0m 1.430 ms - 765[0m
+[0mGET /manifest.json [36m304[0m 6.910 ms - -[0m
+[0mGET /static/js/main.de6b12fe.js.map [32m200[0m 4.184 ms - 1674086[0m
