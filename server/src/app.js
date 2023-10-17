@@ -99,7 +99,7 @@ app.get("/failure", (req, res) => {
 
 app.get("/secret", checkLogin, (req, res) => {
   console.log(req.session);
-  res.json({secret:"this is secret"})  
+  res.json({secret:"this is secrets"})  
 })
 
 
