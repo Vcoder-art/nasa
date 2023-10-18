@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v2
-     - name: node setup with version 16
+     - name: node setup with version  ${{matrix.node-version}}
        uses: actions/setup-node@v3
        with:
-        node-version: "16"
+        node-version: ${{matrix.node-version}}
     #  - run: npm run client-install
 
 
