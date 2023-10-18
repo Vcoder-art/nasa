@@ -10,9 +10,11 @@ jobs:
     steps:
      - uses: actions/checkout@v2
      - name: node setup with version 16
-       uses: actions/setup-node@v2
+       uses: actions/setup-node@v3
        with:
         node-version: "16"
-     - run: npm run client-install
+        
+     - name: Install modules
+       run: npm run client-install
 
 
