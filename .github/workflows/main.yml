@@ -18,12 +18,6 @@ jobs:
        uses: actions/setup-node@v3
        with:
         node-version: "16"
-<<<<<<< HEAD
     #  - run: npm run client-install
-=======
-        
-     - name: Install modules
-       run: npm run client-install
->>>>>>> 65511b62d801111325ebc200ff64c7b22efccc58
 
 
