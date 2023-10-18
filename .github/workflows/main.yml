@@ -6,6 +6,11 @@ on:
     branches: [main]
 jobs:
   build:
+    env: 
+      CI : true
+    strategy: 
+      matrix: 
+        node-version: [14.x,16.x]
     runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v2
@@ -13,6 +18,6 @@ jobs:
        uses: actions/setup-node@v2
        with:
         node-version: "16"
-     - run: npm run client-install
+    #  - run: npm run client-install
 
 
